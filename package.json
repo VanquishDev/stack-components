@@ -1,0 +1,17 @@
+{
+  "name": "@vqs/components",
+  "version": "0.1.2",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VanquishDev/stack-components.git"
+  },
+  "scripts": {
+    "publish": "yarn workspace @vqs/components publish --access public"
+  },
+  "peerDependencies": {
+    "classnames": "*",
+    "react": "*",
+    "typescript": "*"
+  }
+}
