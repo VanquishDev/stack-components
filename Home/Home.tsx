@@ -34,7 +34,7 @@ window.matchMedia('(prefers-color-scheme: dark)').addListener(async status => {
 const App: React.FC = () => (
   <IonApp>
     <IonSplitPane when="sm" contentId="main-content">
-      <Menu />
+      <Menu theme={''} setTheme={undefined} />
 
       <div className="ion-page" id="main-content">
         <IonHeader>

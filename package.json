@@ -1,6 +1,6 @@
 {
   "name": "@vqs/components",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "main": "index.ts",
   "repository": {
     "type": "git",
