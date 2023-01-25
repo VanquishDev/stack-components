@@ -87,7 +87,7 @@ const Menu: React.FC<Props> = (props: Props) => {
   }
 
   return (
-    <IonMenu contentId="main" color="tertiary">
+    <IonMenu contentId="main" color="tertiary" style={{ maxWidth: 300 }}>
       <IonContent forceOverscroll={false} color="tertiary">
         <div
           className={cn({

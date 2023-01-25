@@ -27,6 +27,7 @@ import { StatusBar, Style } from '@capacitor/status-bar';
 
 import { Menu } from '@vqs/components';
 import SessionListFilter from './SessionListFilter';
+import TabsBar from './TabsBar';
 
 window
   .matchMedia('(prefers-color-scheme: dark)')
@@ -54,7 +55,7 @@ const App: React.FC = () => {
   const doRefresh = () => {
     setTimeout(() => {
       ionRefresherRef.current!.complete();
-      setShowCompleteToast(true);
+      // setShowCompleteToast(true);
     }, 2500);
   };
 
@@ -156,9 +157,7 @@ const App: React.FC = () => {
           </IonContent>
 
           <IonFooter>
-            <IonToolbar>
-              <IonTitle>Footer</IonTitle>
-            </IonToolbar>
+            <TabsBar />
           </IonFooter>
 
           <IonModal
